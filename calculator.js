@@ -24,7 +24,7 @@ Calc.prototype.divide = function divide (number1, number2) {
   if (this.number1 === null || this.number2 === null) {
     console.log("null");
     return "null";
-  };
+  }
   else {
     console.log(this.number1 / this.number2);
     return this.number1 / this.number2;
